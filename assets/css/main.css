@@ -8,11 +8,10 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
 		vertical-align: baseline;
 	}
 
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	article, aside, details, figcaption, figure, footer, header, menu, nav, section {
 		display: block;
 	}
 
@@ -30,7 +29,6 @@
 
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
-		content: none;
 	}
 
 	table {
@@ -1551,11 +1549,11 @@
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
-			-ms-animation: none !important;
+			/*-ms-animation: none !important;*/
 			animation: none !important;
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
-			-ms-transition: none !important;
+			/*-ms-transition: none !important;*/
 			transition: none !important;
 		}
 
@@ -1597,7 +1595,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: transparent;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1760,8 +1758,8 @@
 	textarea {
 		-moz-appearance: none;
 		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
+		/*-ms-appearance: none;*/
+		/*appearance: none;*/
 		background: #f7f7f7;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
@@ -1837,8 +1835,8 @@
 	input[type="radio"] {
 		-moz-appearance: none;
 		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
+		/*-ms-appearance: none;*/
+		/*appearance: none;*/
 		display: block;
 		float: left;
 		margin-right: -2em;
@@ -2007,7 +2005,7 @@
 			.image.thumb:after {
 				-moz-transition: opacity 0.2s ease-in-out;
 				-webkit-transition: opacity 0.2s ease-in-out;
-				-ms-transition: opacity 0.2s ease-in-out;
+				/*-ms-transition: opacity 0.2s ease-in-out;*/
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
@@ -2317,11 +2315,11 @@
 	.button {
 		-moz-appearance: none;
 		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
+		/*-ms-appearance: none;*/
+		/*appearance: none;*/
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		/*-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;*/
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
@@ -2330,7 +2328,7 @@
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
-		height: 3.15em;
+		/*height: 3.15em;*/
 		height: calc(2.75em + 6px);
 		line-height: 2.75em;
 		min-width: 10em;
@@ -2482,7 +2480,7 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.0);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2628,7 +2626,7 @@
 	.poptrox-popup {
 		-moz-box-sizing: content-box;
 		-webkit-box-sizing: content-box;
-		-ms-box-sizing: content-box;
+		/*-ms-box-sizing: content-box;*/
 		box-sizing: content-box;
 		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 		background: #fff;
@@ -2642,7 +2640,7 @@
 			text-decoration: none;
 			-moz-animation: spin 1s linear infinite;
 			-webkit-animation: spin 1s linear infinite;
-			-ms-animation: spin 1s linear infinite;
+			/*-ms-animation: spin 1s linear infinite;*/
 			animation: spin 1s linear infinite;
 			font-size: 1.5em;
 			height: 1em;
@@ -2686,7 +2684,7 @@
 			text-decoration: none;
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
-			-ms-transition: opacity 0.2s ease-in-out;
+			/*-ms-transition: opacity 0.2s ease-in-out;*/
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			background: rgba(0, 0, 0, 0.01);
@@ -2743,7 +2741,7 @@
 			text-decoration: none;
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
-			-ms-transition: opacity 0.2s ease-in-out;
+			/*-ms-transition: opacity 0.2s ease-in-out;*/
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			color: #fff;
@@ -2770,7 +2768,7 @@
 			.poptrox-popup .closer:before {
 				-moz-box-sizing: content-box;
 				-webkit-box-sizing: content-box;
-				-ms-box-sizing: content-box;
+				/*-ms-box-sizing: content-box;*/
 				box-sizing: content-box;
 				border-radius: 100%;
 				border: solid 3px rgba(255, 255, 255, 0.5);
